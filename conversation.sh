@@ -1,4 +1,7 @@
 #!/bin/bash
-echo "ramesh:: hii,suresh.how r u?"
-echo "suresh:: heloo ramesh.iam good.how about you?"
-echo "Ramesh:: iam good too"
+PERSON1=Ramesh
+PERSON2=Suresh
+
+echo "$PERSON1:: hii,$PERSON2.how r u?"
+echo "$PERSON2:: heloo $PERSON1.iam good.how about you?"
+echo "$PERSON1:: iam good too"
